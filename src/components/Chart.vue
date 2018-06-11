@@ -1,25 +1,22 @@
 <template>
-  <div id="container">
+    <div>
 
-  </div>
+    </div>
 </template>
 
 <script>
 /* eslint-disable */
 import Fetch from '@/common/fetch.js'
-
 export default {
-  name: 'Content',
-  // props: ['searchData'],
-  data () {
-    return {
+    name: 'Chart',
+    data () {
+        return {
 
-    }
-  },
-  
-  methods: {
-    
-  }
+        }
+    },
+    methods: {
+ 
+    } 
 }
 </script>
 

@@ -1,9 +1,10 @@
 <template>
-  <v-app id="inspire" dark>
-    <app-header></app-header>
-      <v-content class="content-conteiner__inside" id="scroll-target"> 
-        <router-view class="router-conteiner"></router-view>
-      </v-content>
+  <v-app id="main-app" dark>
+    <app-header class="header"></app-header>
+    <v-content class="content-conteiner"> 
+      <app-chart></app-chart>
+      <app-drop-down></app-drop-down>
+    </v-content>
     <app-footer class="footer"></app-footer>
   </v-app>
 </template>
@@ -11,9 +12,11 @@
 <script>
 import AppHeader from '@/components/Header.vue'
 import AppFooter from '@/components/Footer.vue'
+import AppChart from '@/components/Chart.vue'
+import AppDropDown from '@/components/DropDown.vue'
 export default {
   name: 'App',
-  components: { AppHeader, AppFooter, DrawerLeft, DrawerRight },
+  components: { AppHeader, AppFooter, AppChart, AppDropDown },
   data () {
     return {
 
