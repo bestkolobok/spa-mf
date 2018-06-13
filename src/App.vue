@@ -1,5 +1,5 @@
 <template>
-  <v-app id="main-app" dark>
+  <v-app id="main-app">
     <app-header class="header"></app-header>
     <v-content class="content-conteiner"> 
       <app-chart></app-chart>
