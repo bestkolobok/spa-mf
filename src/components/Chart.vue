@@ -6,7 +6,6 @@
 
 <script>
 /* eslint-disable */
-import Fetch from '@/common/fetch.js'
 export default {
     name: 'Chart',
     data () {

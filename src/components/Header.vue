@@ -11,7 +11,6 @@
 
 <script>
 // import _ from 'lodash'
-import Fetch from '@/common/fetch.js'
 export default {
     name: 'Header',
     data(){
