@@ -6,7 +6,7 @@ const { reactiveProp } = mixins
 export default {
   extends: Bar,
   mixins: [reactiveProp],
-  props: ['options'],
+  props: ['chartData', 'options'],
   methods: {
     update () {
       this.$data._chart.update()
