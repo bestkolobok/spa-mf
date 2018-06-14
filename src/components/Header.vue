@@ -1,7 +1,7 @@
 <template>
     <v-toolbar 
         class="primary toolbar" 
-        dark app dense prominent extended
+        dark app dense prominent
     >
         <v-toolbar-title>
             <span class="toolbar-title__text">Regions charts</span>
@@ -10,7 +10,6 @@
 </template>
 
 <script>
-// import _ from 'lodash'
 export default {
     name: 'Header',
     data(){

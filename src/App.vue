@@ -17,22 +17,8 @@ import AppDropDown from '@/components/DropDown.vue'
 export default {
   name: 'App',
   components: { AppHeader, AppFooter, AppChart, AppDropDown },
-  data () {
-    return {
-
-    }
-  },
-  methods:{
-
-  }
 }
 </script>
-
-<style>
-  a {
-    text-decoration: none!important;
-  }
-</style>
 
 <style lang="scss" scoped>
 
