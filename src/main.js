@@ -6,8 +6,6 @@ import router from './router'
 import Config from './common/config'
 // import '@/assets/styles/reset.scss';
 import 'vuetify/dist/vuetify.min.css'
-import Vuebar from 'vuebar'
-Vue.use(Vuebar)
 
 // import Vuetify from 'vuetify'
 import {
