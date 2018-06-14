@@ -1,13 +1,15 @@
 <template>
     <div class="conteiner">
-        <bar-chart 
-            ref="BarChart" 
-            :options="options" 
-            :chart-data="chartData"
-            :height="180" 
-        />
         <v-container grid-list-md text-xs-center>
             <v-layout row wrap>
+                <v-flex xs10>
+                    <bar-chart 
+                        ref="BarChart" 
+                        :options="options" 
+                        :chart-data="chartData"
+                        :height="150" 
+                    />
+                </v-flex>
                 <v-flex xs3>
                     <v-tooltip top max-width="200px">
                         <v-switch

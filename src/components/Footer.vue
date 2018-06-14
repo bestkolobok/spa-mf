@@ -1,6 +1,6 @@
 <template>
   <v-footer height="auto" class="primary" app dark>
-    <span class="text text-xs-right">&copyAlexGuzey 2018</span>
+    <span class="text text-xs-right">&copy;AlexGuzey 2018</span>
   </v-footer>
 </template>
 
