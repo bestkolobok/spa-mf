@@ -90,7 +90,7 @@ export default {
             HTTP.get(`api/transactions/top100?region=${region}`)
             .then(response => {
                 this.transactions = response.data
-                this.options.scales.yAxes[0].ticks.suggestedMax = this.transactions[0].amount
+                this.options.scales.yAxes[0].ticks.suggestedMax = this.transactions.length > 0 ? this.transactions[0].amount : undefined
                 if(!this.relativeSwitch){this.$eventHub.$emit('renderChart')}
                 this.sortTransactions()
             })
